@@ -1,0 +1,178 @@
+#header{
+z-index: 1;
+	position: static;
+	width: 100%;
+	margin-top: -20px;
+	height: 100px;
+	background-color: #8fb1bc;
+	margin-bottom: 50px;
+}
+
+#header a{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+/*#header a:hover{
+	color: #263940;
+}*/
+
+#name{
+float:left;
+	margin-left: 40px;
+	padding-top: 5px;
+	font-size: 30px;
+	font-family: 'Roboto Condensed',sans-serif;
+	color: #ffffff;
+	word-spacing: .2em;
+	letter-spacing: .1em;
+
+}
+
+#nav{
+	float:right;
+	margin-right: 40px;
+	margin-top: 24px;
+	padding: 0px;
+	font-size: 28px;
+	font-family: 'Roboto Condensed', serif;
+	color: #ffffff;
+	word-spacing: .5em;
+	list-style-type: none;	
+}
+
+#nav li {
+	display:inline;
+	float: right;
+	margin: 1px;
+	width: 200px;
+	height: 50px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+body{
+	background-color: rgba(204, 204, 204, 0.3);
+}
+
+blockquote{
+	width: 300px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	font-size: 200%;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: auto;
+}
+/* Lab 9 styles*/
+.li-hover {
+	opacity: .25;
+}
+
+.li-click {
+	background-color: green;
+}
+
+/*Home Page*/
+
+
+#body-home{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.main{
+	width: 100%;
+	font-family: Arial, Verdana, sans-serif;
+	color: #646565;
+	float: left;	
+}
+
+.gallery{
+	width: 100%;
+	float: left;
+}
+
+.polaroid img {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  margin: 15px
+}
+
+.main p{
+	line-height: 1.4em;
+}
+
+/*About Page*/	
+
+#body-about{
+	width: 900px;
+	margin: 0 auto;
+}
+
+ol a{
+	text-decoration: none;
+	font-size:130%;
+}
+
+ol a:hover{
+	color: black;
+	font-weight:bold;
+}
+
+/*Contact Page*/
+
+
+#body-contact{
+	width: 900px;
+	margin: 0 auto;
+	
+}
+
+.mein{
+
+	width: 400px;
+	float: right;
+	font-family: Arial, Verdana, sans-serif;
+	color: #646565;
+}
+
+#digits{
+	width: 170px;
+	padding: 5px;
+}
+
+
+#form{
+	float: left;
+}
+
+#form fieldset{
+	width: 350px;
+	border: 1px solid #dcdcdc;
+	border-radius: 20px;
+	padding: 20px;
+	text-align: right;
+	background-color: #c1c1c1;
+	float: 
+}
+
+
+#form legend{
+	font-family: 'Roboto Condensed',sans-serif;
+	background-color: #697a8b;
+	color: white;
+	border: 2px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+button#submit{
+	color:white;
+	font-family: 'Roboto Condensed',sans-serif;
+	background-color: #454545;
+	
+}
